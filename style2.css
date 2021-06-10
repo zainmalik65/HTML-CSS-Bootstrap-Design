@@ -1,0 +1,91 @@
+body {
+  background: black;
+}
+.skewHeader {
+  height: 100vh;
+  background-color: blueviolet;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 50% 100%, 0% 35%);
+}
+.inHeader {
+  width: 90%;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+  line-height: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.bodyStyle {
+  border-radius: 25px;
+  border: 2px solid transparent;
+  background-color: #48464f;
+  color: white;
+  padding: 20px;
+  position: relative;
+  top: -75vh;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 50px;
+}
+.imgStyle {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 3%;
+}
+
+.imgStyle2 {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 3% 3% 0 0;
+}
+hr.style7 {
+  border-top: 1px solid purple;
+  border-bottom: 1px solid #fff;
+  margin: 0px 10px;
+}
+.lineH {
+  line-height: 20px;
+}
+.footerStyle {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.bhead {
+  font-size: 15px;
+}
+
+.fillGap {
+  margin-top: -70vh;
+  background: #48464f;
+  color: #fff;
+}
+
+.fsize {
+  font-size: 16px;
+}
+
+.iconsCenter {
+  margin-top: 50px auto 10px auto;
+}
